@@ -29,12 +29,14 @@ PunktSentenceTokenizer is an sentence boundary detection algorithm that must be 
 
 So if you use initialize the tokenizer without any arguments, it will default to the pre-trained version:
 ```
-import nltk
+        import nltk
 
-tokenizer = nltk.tokenize.punkt.PunktSentenceTokenizer()
+        tokenizer = nltk.tokenize.punkt.PunktSentenceTokenizer()
 
-txt = """ This is one sentence. This is another sentence."""
-tokenizer.tokenize(txt)
+        txt = """ This is one sentence. This is another sentence."""
+        tokenizer.tokenize(txt)
 
-[out]:[' This is one sentence.', 'This is another sentence.']
+[out]: ' This is one sentence.', 'This is another sentence.']
+
+Source: [Stackoverflow](https://stackoverflow.com/questions/35275001/use-of-punktsentencetokenizer-in-nltk)
 ```
