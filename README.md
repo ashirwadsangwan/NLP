@@ -37,6 +37,5 @@ So if you use initialize the tokenizer without any arguments, it will default to
         tokenizer.tokenize(txt)
 
 [out]: ' This is one sentence.', 'This is another sentence.']
-
-Source: [Stackoverflow](https://stackoverflow.com/questions/35275001/use-of-punktsentencetokenizer-in-nltk)
 ```
+Source: [Stackoverflow](https://stackoverflow.com/questions/35275001/use-of-punktsentencetokenizer-in-nltk)
