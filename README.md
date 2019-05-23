@@ -28,10 +28,9 @@ In corpus linguistics, [part-of-speech tagging](https://medium.freecodecamp.org/
 PunktSentenceTokenizer is an sentence boundary detection algorithm that must be trained to be used [1]. NLTK already includes a pre-trained version of the PunktSentenceTokenizer.
 
 So if you use initialize the tokenizer without any arguments, it will default to the pre-trained version:
-'''
-import nltk
+
+`<import nltk
 tokenizer = nltk.tokenize.punkt.PunktSentenceTokenizer()
 [out]: txt = """ This is one sentence. This is another sentence."""
 tokenizer.tokenize(txt)
-[out]:[' This is one sentence.', 'This is another sentence.']
-'''
+[out]:[' This is one sentence.', 'This is another sentence.']>`
