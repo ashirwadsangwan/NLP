@@ -38,4 +38,23 @@ So if you use initialize the tokenizer without any arguments, it will default to
 
 [out]: ' This is one sentence.', 'This is another sentence.']
 ```
+
 Source: [Stackoverflow](https://stackoverflow.com/questions/35275001/use-of-punktsentencetokenizer-in-nltk)
+
+
+## Chunking
+Chunking in NLP is Changing a perception by moving a “chunk”, or a group of bits of information, in the direction of a Deductive or Inductive conclusion through the use of language.
+
+Chunking up or down allows the speaker to use certain language patterns, to utilize the natural internal process through language, to reach for higher meanings or search for more specific bits/portions of missing information.
+
+When we “Chunk Up” the language gets more abstract and there are more chances for agreement, and when we “Chunk Down” we tend to be looking for the specific details that may have been missing in the chunk up.
+
+As an example if you ask the question “for what purpose cars?” you may get the answer “transport”, which is a higher chunk and more toward abstract.
+
+If you asked “what specifically about a car”? you will start to get smaller pieces of information about a car.
+
+Lateral thinking will be the process of chunking up and then looking for other examples: For example “for what intentions cars?”, “transportation”, “what are other examples of transportation?” “Buses!”
+
+Chunking is a process of extracting phrases from unstructured text. Instead of just simple tokens which may not represent the actual meaning of the text, its advisable to use phrases such as “South Africa” as a single word instead of ‘South’ and ‘Africa’ separate words.
+
+Chunking works on top of POS tagging, it uses pos-tags as input and provides chunks as output. Similar to POS tags, there are a standard set of Chunk tags like Noun Phrase(NP), Verb Phrase (VP), etc. Chunking is very important when you want to extract information from text such as Locations, Person Names etc. In NLP called Named Entity Extraction.
