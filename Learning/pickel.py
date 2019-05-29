@@ -35,7 +35,7 @@ training_set = featuresets[:1900]
 test_set = featuresets[1900:]
 
 '''
-<h3>posterior = prior occurances * likelihood/evidence</h3>
+posterior = prior occurances * likelihood/evidence
 '''
 
 classifier = nltk.NaiveBayesClassifier.train(training_set)
